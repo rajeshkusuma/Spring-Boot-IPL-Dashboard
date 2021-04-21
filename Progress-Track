@@ -1,0 +1,6 @@
+created spring project
+read csv file
+  Enable spring batch processing
+    reader
+    processor
+    writer
