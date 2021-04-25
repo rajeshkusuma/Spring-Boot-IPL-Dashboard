@@ -4,3 +4,11 @@ read csv file
     reader
     processor
     writer
+
+Part 4
+Create a team class this is an entity class
+  Task: save the output of the team file to this class.
+  we wanted what are the teams involved
+  1 query to identify unique teams in team1 column
+  1 quert to identify unique teams in team2 column
+  1 query to get the total number of wins for each team.

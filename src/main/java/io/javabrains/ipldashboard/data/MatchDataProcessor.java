@@ -3,9 +3,7 @@ package io.javabrains.ipldashboard.data;
 import io.javabrains.ipldashboard.model.Match;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import org.springframework.batch.item.ItemProcessor;
-
 import java.time.LocalDate;
 
 public class MatchDataProcessor implements ItemProcessor<MatchInput, Match> {
@@ -37,6 +35,7 @@ public class MatchDataProcessor implements ItemProcessor<MatchInput, Match> {
         match.setTeam1(firstInningsTeam);
         match.setTeam2(secondInningsTeam);
         match.setTossWinner(matchInput.getToss_winner());
+        match.setMatchWinner(matchInput.getWinner());
         match.setTossDecision(matchInput.getToss_decision());
         match.setResult(matchInput.getResult());
         match.setResultMargin(matchInput.getResult_margin());
