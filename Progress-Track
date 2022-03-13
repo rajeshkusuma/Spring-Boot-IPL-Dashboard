@@ -12,3 +12,23 @@ Create a team class this is an entity class
   1 query to identify unique teams in team1 column
   1 quert to identify unique teams in team2 column
   1 query to get the total number of wins for each team.
+
+Part 5
+what are the api endpoints and what are being returned from them.
+endpoint1: team info
+  team name
+  no of matches
+  win/loss
+  list of lost n matches
+
+  Suppose you have a extract method that has to access the data with another spring class. you dont
+  want to put that in your controller, putting in repository is not possible since they are interfaces
+  so you create a DAO class and put it there and from there it access the repository interface. (old way)
+
+  Now java supports methods in interface, default method.
+
+Part 6
+Building the react front end
+  what are the components that are involved.
+  team page
+    team name, win vs loss, latest match, recent matches
