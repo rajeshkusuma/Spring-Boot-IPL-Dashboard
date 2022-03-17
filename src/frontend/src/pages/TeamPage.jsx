@@ -17,7 +17,7 @@ export const TeamPage = () => {
         setTeam(data);
       };
       fetchMatches();
-    }, []
+    }, [] // initializing a empty list to prevent it from running infinitely
   );
 
   return (
